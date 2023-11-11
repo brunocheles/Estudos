@@ -1,0 +1,15 @@
+D:\Development\Projects\CSharp\CalculoPercentual\CalculoPercentual\bin\Debug\net6.0\CalculoPercentual.exe
+D:\Development\Projects\CSharp\CalculoPercentual\CalculoPercentual\bin\Debug\net6.0\CalculoPercentual.deps.json
+D:\Development\Projects\CSharp\CalculoPercentual\CalculoPercentual\bin\Debug\net6.0\CalculoPercentual.runtimeconfig.json
+D:\Development\Projects\CSharp\CalculoPercentual\CalculoPercentual\bin\Debug\net6.0\CalculoPercentual.dll
+D:\Development\Projects\CSharp\CalculoPercentual\CalculoPercentual\bin\Debug\net6.0\CalculoPercentual.pdb
+D:\Development\Projects\CSharp\CalculoPercentual\CalculoPercentual\obj\Debug\net6.0\CalculoPercentual.csproj.AssemblyReference.cache
+D:\Development\Projects\CSharp\CalculoPercentual\CalculoPercentual\obj\Debug\net6.0\CalculoPercentual.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Projects\CSharp\CalculoPercentual\CalculoPercentual\obj\Debug\net6.0\CalculoPercentual.AssemblyInfoInputs.cache
+D:\Development\Projects\CSharp\CalculoPercentual\CalculoPercentual\obj\Debug\net6.0\CalculoPercentual.AssemblyInfo.cs
+D:\Development\Projects\CSharp\CalculoPercentual\CalculoPercentual\obj\Debug\net6.0\CalculoPercentual.csproj.CoreCompileInputs.cache
+D:\Development\Projects\CSharp\CalculoPercentual\CalculoPercentual\obj\Debug\net6.0\CalculoPercentual.dll
+D:\Development\Projects\CSharp\CalculoPercentual\CalculoPercentual\obj\Debug\net6.0\refint\CalculoPercentual.dll
+D:\Development\Projects\CSharp\CalculoPercentual\CalculoPercentual\obj\Debug\net6.0\CalculoPercentual.pdb
+D:\Development\Projects\CSharp\CalculoPercentual\CalculoPercentual\obj\Debug\net6.0\CalculoPercentual.genruntimeconfig.cache
+D:\Development\Projects\CSharp\CalculoPercentual\CalculoPercentual\obj\Debug\net6.0\ref\CalculoPercentual.dll
