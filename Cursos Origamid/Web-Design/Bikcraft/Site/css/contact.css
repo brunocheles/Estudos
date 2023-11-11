@@ -1,0 +1,52 @@
+/* --------------------------Introdução------------------------- */
+.intro {
+    background-image: url("../images/bg-intro-contato.jpg");
+}
+
+/* ----------------------------Section-------------------------- */
+section {
+    text-align: left;
+}
+#formulario, #dados {
+    margin-top: 20px;
+}
+#dados {
+    line-height: 1.40;
+}
+#dados h4 {
+    margin-bottom: 5px;
+}
+#formulario form div {
+    margin: 0;
+}
+#formulario button {
+    margin-top: 10px;
+}
+#formulario button:hover {
+    cursor: pointer;
+    color: #D059FF;
+    border-color: #D059FF;
+}
+#formulario label {
+    font-size: 1.8rem;
+}
+#formulario input {
+    height: 50px;
+}
+#formulario textarea {
+    height: 120px;
+    resize: none;
+    margin-left: 0;
+}
+#formulario input, textarea {
+    border: 4px solid #9D32C9;
+    margin: 0 0 5px 0;
+    font-size: 1.8rem;
+}
+#formulario input:focus, textarea:focus {
+    outline: none;
+    border-color: #D059FF;
+}
+.map{
+    margin-top: 40px;
+}

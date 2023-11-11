@@ -1,0 +1,33 @@
+:root{
+    font-size: 10px;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #F6F8FC;
+}
+body h1 {
+    font-size: 4rem;
+    transition: 200ms ease-in-out;
+}
+main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 370px) {
+    body h1 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width: 578px) and (max-width: 991px)  {
+}
+
+@media only screen and (min-width: 1250px) {
+    main {
+        max-width: 1250px;
+    }
+}

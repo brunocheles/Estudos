@@ -1,0 +1,64 @@
+ /* --------------------------Introdução------------------------- */
+#other-pages{
+    background-image: url("../images/bg-intro-sobre.jpg");
+}
+
+/* --------------------------Section---------------------------- */
+section .sec-cont {
+    text-align: left;
+}
+.sec-cont hr {
+   margin: 2px 100% 30px 0;
+   float: left;
+   display: block;
+}
+.sec-cont .hist {
+   padding-right: 60px;
+}
+section img {
+   margin-top: 60px;
+}
+ 
+ /* --------------------------Qualidade-------------------------- */
+ .qualidade .marca:after {
+    background: url("../images/linhas.png") no-repeat;
+    width: 642px;
+    height: 81px;
+    position: absolute;
+    top: 73px;
+    left: 159px;
+}
+.qualidade .itens-qualidade {
+    margin: 50px auto;
+}
+.qualidade .itens-qualidade div p {
+    padding: 0 2px 20px;
+}
+.qualidade .itens-qualidade hr {
+    margin: 2px auto 10px;
+}
+/* --------------------------------------LAYOUT RESPONSIVO-------------------------------------- */
+/* -------------------------TABLETS----------------------- */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    /* ------------------Qualidade------------------ */
+    .qualidade .marca:after {
+        background: url("../images/linhas-menor.png") no-repeat;
+        top: 73px;
+        left: 126px;
+    }
+}
+/* -------------------------CELULARES----------------------- */
+@media only screen and (max-width: 787px) {
+    .pre-contato {
+        margin-top: 20px;
+    }
+    .qualidade .itens-qualidade {
+        margin: 20px auto;
+    }
+    .qualidade .marca:after {
+        display: none;
+    }
+    section .grid-16 {
+    margin-top: 30px;
+    }
+}

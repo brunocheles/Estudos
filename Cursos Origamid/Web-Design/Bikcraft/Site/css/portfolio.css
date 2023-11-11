@@ -1,0 +1,50 @@
+/* --------------------------Introdução------------------------- */
+.intro {
+    background-image: url("../images/bg-intro-portfolio.jpg");
+}
+/* ---------------------------Section--------------------------- */
+section {
+    background-color: #F5F5F5;
+    height: 100%;
+}
+section .sec-cont {
+    margin: 40px auto;
+}
+.sec-cont hr {
+    margin: 5px auto;
+}
+.sec-cont div p {
+    padding: 0 30%;
+}
+
+/* --------------------------Portfólio-------------------------- */
+.portfolio {
+    background-color: #0A0A0A;
+    height: 100%;
+}
+.portfolio .foto3 {
+    margin-top: 20px;
+}
+.images {
+    padding-top: 20px;
+}
+
+/* --------------------------------------LAYOUT RESPONSIVO-------------------------------------- */
+/* -------------------------TABLETS----------------------- */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    section .sec-cont {
+        margin: 20px auto;
+    }
+    .sec-cont div p {
+        padding: 0 25%;
+    }
+}
+/* -------------------------CELULARES----------------------- */
+@media only screen and (max-width: 787px) {
+    section .sec-cont {
+        margin: 10px auto;
+    }
+    .sec-cont div p {
+        padding: 0;
+    }
+}

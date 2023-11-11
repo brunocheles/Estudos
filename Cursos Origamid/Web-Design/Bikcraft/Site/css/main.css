@@ -1,0 +1,371 @@
+/* ---------------------------------------Configuração Base-------------------------------------*/
+:root {
+    font: 10px Arial, Helvetica, sans-serif;
+    color: #0A0A0A;
+}
+html {
+    line-height: 1.15;
+    background-color: #F5F5F5;
+}
+body {
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    letter-spacing: 0.5px;
+
+}
+ul {
+	list-style: none;
+}
+textarea {
+    overflow: auto;
+}
+.btn {
+    border: 4px solid #9D32C9;
+    padding: 8px 24px;
+    font: 1.4rem bold Arial, Helvetica, sans-serif;
+}
+.btn:hover {
+    color: #D059FF;
+    border-color: #D059FF;
+}
+#pre-btn {
+    margin: 0 auto 20px;
+    padding: 0;
+}
+hr {
+    width: 5.5rem;
+    background-color: #0A0A0A;
+    border: none;
+    margin: 2px auto;
+    height: 4px;
+    border-radius: 2px;
+}
+.hr-normal {
+    margin-bottom: 30px;
+}
+.hr-purple {
+    background-color: #9D32C9;
+}
+
+/* ---------------------------Fonte--------------------------- */
+body h1 {
+    font-size: 4.8rem;
+    font-weight: 600;
+}
+body h2 {
+    font-size: 3.6rem;
+}
+body h3 {
+    font-size: 2.4rem;
+    margin-top: 40px;
+    letter-spacing: 3px;
+}
+body h4 {
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+}
+body p {
+    font: 1.4rem Georgia, 'Times New Roman', Times, serif;
+}
+
+/* -------------------------Fonte classes------------------------- */
+.purple {
+    color: #9D32C9;
+}
+.white {
+    color: #F5F5F5;
+}
+.black {
+    color: #0A0A0A;
+}
+.pre-contato {
+    background-color: #0A0A0A;
+}
+.left {
+    text-align: left;
+}
+#first {
+    margin-left: 0;
+}
+#last {
+    margin-right: 0;
+}
+
+/* -----------------------------------------Cabeçalho------------------------------------------ */
+
+/* -------------------------Header------------------------- */
+header {
+    background-color: #9D32C9;
+    width: 100%;
+    z-index: 10;
+}
+header div {
+    height: 100%;
+}
+#div-marca {
+    height: 100;
+}
+#marca{
+    float: left;
+    background: url("../images/icones/bikcraft.svg") no-repeat center;
+    height: 62px;
+    width: 100px;
+    margin: 9px auto;
+    position: relative;
+}
+#marca:hover {
+    background: url("../images/icones/bikcraft-branco.svg") no-repeat center;
+}
+#marca-button {
+    width: 100px;
+    height: 62px;
+    position: absolute;
+    left: 0;
+}
+nav ul {
+    height: 100%;
+}
+nav ul li{
+    float: right;
+    margin: 18px 2px;
+}
+#header-options {
+    display: block;
+    padding: 13.5px 3px;
+    font-size: 1.4rem;
+}
+#header-options:hover {
+    color: #F5F5F5;
+}
+/* --------------------------------------Introdução------------------------------------ */
+/* -----------------------Introdução Homepage----------------------- */
+.intro{
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 30px;
+}
+.intro .container {
+    padding-top: 60px;
+}
+.intro h4 {
+    margin: 10px auto 80px;
+}
+/* ----------------------Introdução Other pages--------------------- */
+#hr-white {
+    background-color: #F5F5F5;
+    margin: 2px auto;
+}
+#other-pages {
+    height: 160px;
+}
+#other-pages .container {
+    padding-top: 40px;
+}
+
+/* -----------------------------------------PRE-CONTATO----------------------------------------- */
+.pre-contato {
+    margin-top: 60px;
+    height: 220px;
+    background-image: url("../images/bg-pre-contato.jpg");
+    background-size: cover;
+}
+.pre-contato hr {
+    background-color: #F5F5F5;
+}
+.text-centro {
+    height: 220px;
+}
+.text-centro hr {
+    margin-top: 5px;
+}
+.text-centro .hr-cima {
+    margin: 80px auto 5px;
+}
+.text-centro p {
+    margin-top: 0px;
+}
+#pre-contato-no-top {
+    margin-top: 0;
+}
+
+/* ----------------------------------------RODAPÉ----------------------------------------------- */
+.rodape{
+    background-color: #0A0A0A;
+    padding: 10px 0;
+    width: 100%;
+    text-align: left;
+}
+.rodape hr {
+    margin: 2px 100% 10px 0;
+    float: left;
+    display: block;
+}
+#face {
+    background-image: url("../images/sociais/Facebook.svg");
+}
+#insta {
+    background-image: url("../images/sociais/Instagram.svg");
+}
+#TT {
+    background-image: url("../images/sociais/Twitter.svg");
+}
+#face:hover {
+    background-image: url("../images/sociais/Facebook2.svg");
+}
+#insta:hover{
+    background-image: url("../images/sociais/Instagram2.svg");
+}
+#TT:hover{
+    background-image: url("../images/sociais/Twitter2.svg");
+}
+#face, #insta, #TT{
+    width: 44px;
+    height: 44px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin-right: 10px;
+    display: inline-block;
+}
+.rodape .rodape-cont {
+    padding: 10px 0 20px;
+}
+.fim {
+    width: 100% ;
+    height: 50px;
+    background-color: #9D32C9;
+}
+.fim p {
+    float: left;
+    margin: 18px 0 0 10px;
+}
+/* -----------------------------JAVASCRIPT--------------------------------- */
+.js [data-slide] {
+    position: relative;
+}
+.js [data-slide] > *{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+.js [data-slide] > .portf-slides {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+.js [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: 500ms;
+}
+.js [data-slide-nav] {
+    background-color: #0A0A0A;
+    margin-top: 15px 0;
+}
+.js [data-slide-nav] button {
+    width: 12px;
+    height: 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    text-indent: -99px;
+    overflow: none;
+    color: #0A0A0A;
+    background: #332F2E;
+}
+.js [data-slide-nav] button.active {
+    background: #9D32C9;
+}
+.js [data-anime] {
+    opacity: 0;
+}
+.js .fadeInDown {
+    transform: translate3d(0,-20px,0);
+}
+.js .anime {
+    opacity: 1;
+    transform: none;
+    transition: opacity 600ms, transform 600ms;
+}
+.js .corpoMenu-fixo {
+    padding-top: 80px;
+}
+.js .menu-fixo {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    opacity: .95;
+}
+
+/* --------------------------------------LAYOUT RESPONSIVO-------------------------------------- */
+/* -------------------------TABLETS----------------------- */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    .intro .container {
+        padding-top: 40px;
+    }
+}
+/* -------------------------CELULARES----------------------- */
+@media only screen and (max-width: 787px) {
+    /* -------------header------------- */
+    header {
+        position: relative;
+    }
+    nav ul li {
+        float: none;
+        margin: 5px;
+        text-align: center;
+    }
+    .intro .container, #other-pages .container {
+        padding-top: 10px;
+    }
+    #header-options {
+        border: 4px solid #0A0A0A;
+        float: left;
+        width: 135px;
+        padding: 13.5px 10px;
+        margin: 5px;
+    }
+    #header-options:hover {
+        color: #F5F5F5;
+        border-color: #F5F5F5;
+    }
+    #div-marca {
+        height: 100%;
+        display: block;
+    }
+    #marca {
+        float: none;
+    }
+    #marca-button {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /* ---------------Introdução------------- */
+    .intro{
+        padding-top: 30px;
+    }
+    .intro h4 {
+        margin: 10px auto 50px;
+    }
+    /* ----------------Footer-------------- */
+    .rodape .rodape-cont {
+        padding: 10px 0 0;
+    }
+    #ultimo {
+        margin-bottom: 0;
+    }
+    .text-centro .hr-cima {
+        margin: 70px auto 5px;
+    }
+    .rodape-cont .container {
+        padding-bottom: 0;
+    }
+    .rodape-cont div {
+        margin: 0 auto 20px;
+    }
+    .fim p {
+        float: left;
+        text-align: left;
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,89 @@
+/* --------------------------Introdução-------------------------- */
+.intro {
+    background-image: url("../images/bg-intro.jpg");
+}
+/* --------------------------Produtos-------------------------- */
+.produtos h4 {
+    margin: 5px;
+}
+.produtos .prod-type {
+    background-color: #9D32C9;
+    margin-bottom: 40px;
+}
+.prod-type p {
+    padding: 20px;
+}
+.produtos .icon {
+    width: 100%;
+    height: 200px;
+    background-color: #0A0A0A;
+}
+.produtos .icon img {
+    margin: 30px auto;
+}
+/* --------------------------Portfólio-------------------------- */
+.portfolio {
+    background-color: #0A0A0A;
+    height: auto;
+    padding-bottom: 30px;
+}
+.portfolio h3 {
+    padding-top: 40px;
+}
+.portfolio p {
+    margin: 20px 0;
+}
+.portfolio img{
+    margin-top: 20px;
+}
+.portfolio hr {
+    margin-bottom: 10px;
+}
+.portfolio .foto3 {
+    margin-top: 20px;
+}
+/* --------------------------Qualidade-------------------------- */
+.qualidade .marca:after {
+    background: url("../images/linhas.png") no-repeat;
+    width: 642px;
+    height: 81px;
+    position: absolute;
+    top: 73px;
+    left: 159px;
+}
+.qualidade .itens-qualidade {
+    margin: 50px auto;
+}
+.qualidade .itens-qualidade div p {
+    padding: 0 2px 20px;
+}
+.qualidade .itens-qualidade hr {
+    margin: 2px auto 10px;
+}
+/* --------------------------------------LAYOUT RESPONSIVO-------------------------------------- */
+/* -------------------------TABLETS----------------------- */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    /* ------------------Qualidade------------------ */
+    .qualidade .marca:after {
+        background: url("../images/linhas-menor.png") no-repeat;
+        top: 73px;
+        left: 126px;
+    }
+
+}
+/* -------------------------CELULARES----------------------- */
+@media only screen and (max-width: 787px) {
+    .intro {
+        background-image: url("../images/bg-intro-menor.jpg");
+    }
+    /* ------------------Qualidade------------------ */
+    .pre-contato {
+        margin-top: 20px;
+    }
+    .qualidade .itens-qualidade {
+        margin: 20px auto;
+    }
+    .qualidade .marca:after {
+         display: none;
+    }
+}
